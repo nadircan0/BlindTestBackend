@@ -32,7 +32,7 @@ app.include_router(api_router, prefix=settings.API_V1_STR)
 
 @app.get("/")
 def read_root():
-    """Ana sayfa"""
+    """Main page"""
     return {"message": "Blind Test Backend API", "version": "1.0.0"}
 
 
